@@ -22,6 +22,7 @@ $sub3 = $_POST['sub3'];
 $sub4 = $_POST['sub4'];
 $sub5 = $_POST['sub5'];
 $totalsub=5;
+$totalmarks=500;
 $total=(float)(($sub1+$sub2+$sub5+$sub4+$sub3)/$totalsub);
 
 if($sub1||$sub2||$sub3||$sub3||$sub4||$sub5||$name){
